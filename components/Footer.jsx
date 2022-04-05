@@ -137,7 +137,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="text-white bg-back flex justify-between px-20 pb-5">
+      <div className="text-white bg-back flex justify-between px-24 pb-5">
         <div className="flex gap-5">
           <h1 className="cursor-pointer">Privacy Policy</h1>
           <h1 className="cursor-pointer">Terms and Condition</h1>

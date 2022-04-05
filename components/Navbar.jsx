@@ -2,7 +2,7 @@ import Link from "next/link";
 export const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between px-20 bg-back h-20 items-center">
+      <div className="flex justify-between px-24 bg-back h-20 items-center">
         <div className="text-white">logo</div>
         <div className="flex items-center">
           <ul className="flex justify-around gap-10 items-center ">
@@ -10,10 +10,10 @@ export const Navbar = () => {
               <Link href="#">Home</Link>
             </li>
             <li className="text-grey">
-              <Link href="#">Market</Link>
+              <Link href="/market">Market</Link>
             </li>
             <li className="text-grey">
-              <Link href="#">Explore</Link>
+              <Link href="/explore">Explore</Link>
             </li>
             <li className="text-grey">
               <Link href="#">Exhibition</Link>

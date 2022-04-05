@@ -42,7 +42,7 @@ export const MarketHero = () => {
   return (
     <>
       <div className="h-max bg-back pt-24">
-        <div className="px-20">
+        <div className="px-24">
           <h1 className="text-white text-5xl font-bold py-7">
             Crypto Art Market
           </h1>
@@ -55,7 +55,7 @@ export const MarketHero = () => {
             {"document or a typeface without relying on meaningful content. "}
           </p>
         </div>
-        <div className="px-20 pt-10">
+        <div className="px-24 pt-10">
           <h1 className="text-white pb-4">Filter By:</h1>
           <div className="flex gap-4 text-white">
             <button className="border p-3 px-4 rounded-lg">
