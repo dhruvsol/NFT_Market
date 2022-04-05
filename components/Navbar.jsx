@@ -16,7 +16,7 @@ export const Navbar = () => {
               <Link href="/explore">Explore</Link>
             </li>
             <li className="text-grey">
-              <Link href="#">Exhibition</Link>
+              <Link href="/exhibition">Exhibition</Link>
             </li>
             <li className="text-grey">
               <Link href="#">Artist & Collectors</Link>

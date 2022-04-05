@@ -13,11 +13,11 @@ export const NewArt = ({ image, name }) => {
         <div className="text-white flex justify-between pb-5">
           <div>
             <h1 className="text-xl text-grey">Price:</h1>
-            <h1 className="font-bold text-xl">0.444 ETH</h1>
+            <h1 className="font-bold text-xl">0.444 DDC</h1>
           </div>
           <div>
             <h1 className="text-xl text-grey">Available :</h1>
-            <h1 className="font-bold text-xl">0.444 ETH</h1>
+            <h1 className="font-bold text-xl">0.444 DDC</h1>
           </div>
         </div>
         <button className="border p-4 font-bold rounded-md   border-white text-white hover:border-0 hover:scale-105 hover:bg-blue-button">

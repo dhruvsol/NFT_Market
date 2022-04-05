@@ -9,12 +9,12 @@ export const NftCard = ({ image, name }) => {
         <div className="text-white flex justify-between ">
           <div>
             <h1 className="text-xl text-grey">List Price:</h1>
-            <h1 className="font-bold text-xl">0.444 ETH</h1>
+            <h1 className="font-bold text-xl">0.444 DDC</h1>
             <h1>$ 1.22</h1>
           </div>
           <div>
             <h1 className="text-xl text-grey">Last sale Price:</h1>
-            <h1 className="font-bold text-xl">0.444 ETH</h1>
+            <h1 className="font-bold text-xl">0.444 DDC</h1>
             <h1>$ 1.22</h1>
           </div>
         </div>
