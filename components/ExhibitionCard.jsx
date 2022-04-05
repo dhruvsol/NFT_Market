@@ -3,10 +3,10 @@ export const ExhibitionCard = () => {
   return (
     <>
       <div className="flex justify-around pt-20 ">
-        <Image src="/1.png" alt="..." width={350} height={250} />
+        <Image src="/11.jpg" alt="..." width={350} height={250} />
         <div className="text-white flex flex-col gap-4">
           <h1 className="text-xl">June 16,2021</h1>
-          <h1 className="text-4xl">Geometrical heart - fire dispersion </h1>
+          <h1 className="text-2xl">Geometrical heart - fire dispersion </h1>
           <p>
             A fragmental dispersion of the heart. I used many photoshop
             geometrical brushes <br /> with different random size and opacity,

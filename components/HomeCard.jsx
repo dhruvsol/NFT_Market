@@ -4,7 +4,7 @@ export const HomeCard = () => {
     <>
       <div className="flex overflow-hidden gap-20">
         <div className="p-3 bg-blue-nft rounded-xl">
-          <Image src="/1.png" alt=".." width={240} height={250} />
+          <Image src="/10.jpeg" alt=".." width={240} height={250} />
           <h1 className="text-white">Minature Paintin- Indian art</h1>
           <div>
             <div className="flex items-center py-3 gap-2">

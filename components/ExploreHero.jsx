@@ -5,30 +5,39 @@ export const ExploreHero = () => {
   const data = [
     {
       id: 1,
+      img: "/2.jpeg",
     },
     {
       id: 2,
+      img: "/3.jpg",
     },
     {
       id: 3,
+      img: "/4.jpeg",
     },
     {
       id: 4,
+      img: "/5.jpg",
     },
     {
       id: 5,
+      img: "/6.jpeg",
     },
     {
       id: 6,
+      img: "/7.jpeg",
     },
     {
       id: 7,
+      img: "/8.jpg",
     },
     {
       id: 8,
+      img: "/9.jpeg",
     },
     {
       id: 9,
+      img: "/10.jpeg",
     },
   ];
   return (
@@ -57,7 +66,7 @@ export const ExploreHero = () => {
                     <h1 className="font-bold text-2xl">{id}</h1>
                     <Image src="/avatar.png" alt="ph" width={70} height={70} />
                     <div className="flex justify-between flex-col">
-                      <h1 className="font-bold text-2xl">Arlene McCoy</h1>
+                      <h1 className="font-bold text-xl">Arlene McCoy</h1>
                       <p>@ArleneMc</p>
                     </div>
                   </div>
@@ -75,11 +84,11 @@ export const ExploreHero = () => {
           </div>
           <div className="flex justify-center pt-20">
             <div className="grid grid-cols-3 gap-x-16 gap-y-16">
-              {data.map(({ id }) => {
+              {data.map(({ id, img }) => {
                 return (
                   <>
                     <div key={id}>
-                      <NewArt image="/1.png" name="Inner State : Joy" />
+                      <NewArt image={img} name="Inner State : Joy" />
                     </div>
                   </>
                 );

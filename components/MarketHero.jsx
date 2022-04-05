@@ -4,39 +4,51 @@ export const MarketHero = () => {
   const data = [
     {
       id: 1,
+      img: "/2.jpeg",
     },
     {
       id: 2,
+      img: "/3.jpg",
     },
     {
       id: 3,
+      img: "/4.jpeg",
     },
     {
       id: 4,
+      img: "/5.jpg",
     },
     {
       id: 5,
+      img: "/6.jpeg",
     },
     {
       id: 6,
+      img: "/7.jpeg",
     },
     {
       id: 7,
+      img: "/8.jpg",
     },
     {
       id: 8,
+      img: "/9.jpeg",
     },
     {
       id: 9,
+      img: "/10.jpeg",
     },
     {
       id: 10,
+      img: "/11.jpg",
     },
     {
       id: 11,
+      img: "/12.jpg",
     },
     {
       id: 12,
+      img: "/13.jpeg",
     },
   ];
   return (
@@ -77,10 +89,10 @@ export const MarketHero = () => {
         </div>
         <div className="flex justify-center pt-10">
           <div className="grid  grid-cols-3 gap-10 ">
-            {data.map(({ id }) => {
+            {data.map(({ id, img }) => {
               return (
                 <div key={id}>
-                  <NftCard image="/1.png" name="Inner State : Joy" />
+                  <NftCard image={img} name="Inner State : Joy" />
                 </div>
               );
             })}
