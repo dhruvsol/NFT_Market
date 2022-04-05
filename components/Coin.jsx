@@ -11,8 +11,8 @@ export const Coin = ({
   return (
     <div className="coin-container">
       <div className="coin-row">
-        <div className="coin">
-          <Image src={image} alt="crypto" width={60} height={60} />
+        <div className="coin gap-5">
+          <Image src={image} alt="crypto" width={50} height={50} />
           <h1>{name}</h1>
           <p className="coin-symbol">{symbol}</p>
         </div>

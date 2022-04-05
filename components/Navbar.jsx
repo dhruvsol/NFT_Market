@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import Web3 from "web3";
-
+import Image from "next/image";
 export const Navbar = () => {
   const [address, setAddress] = useState("Connect Wallet");
   const [active, setActive] = useState(true);
@@ -30,7 +30,9 @@ export const Navbar = () => {
   return (
     <>
       <div className="flex justify-between px-24 bg-back h-20 items-center">
-        <div className="text-white">logo</div>
+        <div className="text-white">
+          <Image src="/logo.png" alt="logo" width={300} height={50} />
+        </div>
         <div className="flex items-center">
           <ul className="flex justify-around gap-10 items-center ">
             <li className="text-grey">
@@ -47,6 +49,9 @@ export const Navbar = () => {
             </li>
             <li className="text-grey">
               <Link href="#">Artist & Collectors</Link>
+            </li>
+            <li className="text-grey">
+              <Link href="/Trade">Trade</Link>
             </li>
             <li className="text-grey">
               <Link href="#">Community</Link>

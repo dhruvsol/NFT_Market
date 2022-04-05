@@ -11,10 +11,9 @@ export default function Home() {
         </div>
         <div className="flex justify-evenly pt-32  overflow-x-hidden ">
           <div className="pt-10">
-            <h1 className="text-white text-7xl font-bold">
-              Discover, Invest,
-              <br /> collect and sell
-              <br /> extraordinary NFTs
+            <h1 className="text-white text-6xl font-bold ">
+              Collect, Explore, sell and invest
+              <br /> on incredible NFTs.
             </h1>
             <div className="text-white flex gap-5 pt-32">
               <button

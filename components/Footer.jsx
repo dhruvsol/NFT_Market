@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -97,7 +97,9 @@ export const Footer = () => {
       </div>
       <div className="bg-back flex justify-around py-20">
         <div className="text-white text-xl ">
-          <h1 className="py-5">logo</h1>
+          <h1 className="py-5">
+            <Image src="/logo.png" alt="logo" width={300} height={50} />
+          </h1>
           <p>
             {" "}
             The digital marketplace for crypto collectibles, NFTs and crypto
