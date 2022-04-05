@@ -42,8 +42,8 @@ export const MarketHero = () => {
   return (
     <>
       <div className="h-max bg-back pt-24">
-        <div className="px-24">
-          <h1 className="text-white text-5xl font-bold py-7">Market</h1>
+        <div className="px-16">
+          <h1 className="text-white text-4xl font-bold py-7">Market</h1>
           {/* <p className="text-white text-xl">
             {
               "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a"
@@ -53,7 +53,7 @@ export const MarketHero = () => {
             {"document or a typeface without relying on meaningful content. "}
           </p> */}
         </div>
-        <div className="px-24 pt-10">
+        <div className="px-16 pt-10">
           <h1 className="text-white pb-4">Filter By:</h1>
           <div className="flex gap-4 text-white">
             <button className="border p-3 px-4 rounded-lg">
@@ -76,7 +76,7 @@ export const MarketHero = () => {
           </div>
         </div>
         <div className="flex justify-center pt-10">
-          <div className="grid  grid-cols-3 gap-14 ">
+          <div className="grid  grid-cols-3 gap-10 ">
             {data.map(({ id }) => {
               return (
                 <div key={id}>

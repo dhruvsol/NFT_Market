@@ -3,18 +3,18 @@ import Image from "next/image";
 export const NftCard = ({ image, name }) => {
   return (
     <>
-      <div className="bg-blue-nft p-5 flex w-max flex-col rounded-xl">
-        <Image src={image} alt="nft" width={400} height={350} />
-        <h1 className="text-white pt-5 pb-2 text-2xl">{name}</h1>
+      <div className="bg-blue-nft p-3 flex w-max flex-col rounded-xl">
+        <Image src={image} alt="nft" width={250} height={200} />
+        <h1 className="text-white pt-5 pb-2 text-xl">{name}</h1>
         <div className="text-white flex justify-between ">
           <div>
-            <h1 className="text-xl text-grey">List Price:</h1>
-            <h1 className="font-bold text-xl">0.444 DDC</h1>
+            <h1 className="text-lg text-grey">List Price:</h1>
+            <h1 className="font-bold text-lg">0.444 DDC</h1>
             <h1>$ 1.22</h1>
           </div>
           <div>
-            <h1 className="text-xl text-grey">Last sale Price:</h1>
-            <h1 className="font-bold text-xl">0.444 DDC</h1>
+            <h1 className="text-lg text-grey">Last sale Price:</h1>
+            <h1 className="font-bold text-lg">0.444 DDC</h1>
             <h1>$ 1.22</h1>
           </div>
         </div>

@@ -9,7 +9,7 @@ const exhibition = () => {
           <Navbar />
         </div>
         <div className="px-36">
-          <h1 className="text-white font-bold py-5 text-5xl">Exhibition</h1>
+          <h1 className="text-white font-bold py-5 text-4xl">Exhibition</h1>
           <p className="text-grey text-xl">
             Lorem ipsum is a placeholder text commonly used to demonstrate the
             visual form of a document <br /> or a typeface without relying on
@@ -58,7 +58,7 @@ const exhibition = () => {
         </div>
         <div className="flex justify-center ">
           <div className="bg-blue-connect flex flex-col justify-center gap-10 items-center h-[30rem] rounded-md text-center w-2/3">
-            <h1 className="text-5xl  text-white">
+            <h1 className="text-4xl  text-white">
               Stay in the loop on CryptoArt and NFTs
             </h1>
             <p className="text-xl text-white">

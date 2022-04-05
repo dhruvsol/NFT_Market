@@ -34,8 +34,8 @@ export const ExploreHero = () => {
   return (
     <>
       <div className="bg-back h-max">
-        <div className="px-24 pt-12 text-white">
-          <h1 className="text-5xl font-bold">Explore Now</h1>
+        <div className="px-16 pt-12 text-white">
+          <h1 className="text-4xl font-bold">Explore Now</h1>
           <div className="flex justify-center pt-12 gap-2">
             <input
               type="text"
@@ -47,8 +47,8 @@ export const ExploreHero = () => {
             </button>
           </div>
         </div>
-        <div className="text-white px-24 pt-10">
-          <h1 className="text-5xl font-bold pb-5">New Artist</h1>
+        <div className="text-white px-16 pt-10">
+          <h1 className="text-4xl font-bold pb-5">New Artist</h1>
           <div className="flex justify-center">
             <div className="grid grid-cols-3 gap-y-10 gap-x-32">
               {data.map(({ id }) => {
@@ -67,14 +67,14 @@ export const ExploreHero = () => {
           </div>
         </div>
         <div className="pt-16">
-          <div className="flex justify-between px-24 text-white">
-            <h1 className="text-5xl font-bold">New CryptoArt</h1>
+          <div className="flex justify-between px-16 text-white">
+            <h1 className="text-4xl font-bold">New CryptoArt</h1>
             <button className="bg-blue-button p-3 px-6 rounded-xl">
               View All
             </button>
           </div>
           <div className="flex justify-center pt-20">
-            <div className="grid grid-cols-3 gap-x-28 gap-y-16">
+            <div className="grid grid-cols-3 gap-x-16 gap-y-16">
               {data.map(({ id }) => {
                 return (
                   <>

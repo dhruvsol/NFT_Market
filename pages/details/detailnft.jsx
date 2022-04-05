@@ -10,10 +10,10 @@ const detailnft = () => {
         <Navbar />
       </div>
       <div className="bg-back">
-        <div className="flex justify-center px-24 gap-20 pt-20 w-full">
+        <div className="flex justify-center px-16 gap-20 pt-20 w-full">
           <Image src="/1.png" alt="..." width={550} height={600} />
           <div className="flex text-white flex-col">
-            <h1 className="text-5xl pb-5">
+            <h1 className="text-4xl pb-5">
               Geometrical heart-fire <br /> dispersion{" "}
             </h1>
             <p className="text-xl">
@@ -88,7 +88,7 @@ const detailnft = () => {
         <DetailMiddle />
         <div className="flex justify-center ">
           <div className="bg-blue-connect flex flex-col justify-center gap-10 items-center h-[30rem] rounded-md text-center w-2/3">
-            <h1 className="text-5xl  text-white">
+            <h1 className="text-4xl  text-white">
               Stay in the loop on CryptoArt and NFTs
             </h1>
             <p className="text-xl text-white">

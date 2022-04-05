@@ -98,8 +98,8 @@ export const DetailMiddle = () => {
         </div>
       </div>
       <div>
-        <div className="flex justify-between px-24">
-          <h1 className="text-white text-5xl">More Works by CameronWill </h1>
+        <div className="flex justify-between px-16">
+          <h1 className="text-white text-4xl">More Works by CameronWill </h1>
           <button className="px-5 p-3 bg-blue-button rounded-lg">
             See All
           </button>

@@ -29,12 +29,12 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-24 bg-back h-20 items-center">
+      <div className="flex justify-between px-16 bg-back h-20 items-center">
         <div className="text-white">
-          <Image src="/logo.png" alt="logo" width={300} height={50} />
+          <Image src="/logo.png" alt="logo" width={240} height={42} />
         </div>
         <div className="flex items-center">
-          <ul className="flex justify-around gap-10 items-center ">
+          <ul className="flex justify-around gap-5 items-center ">
             <li className="text-grey">
               <Link href="/">Home</Link>
             </li>
