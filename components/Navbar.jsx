@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div className="flex items-center">
           <ul className="flex justify-around gap-10 items-center ">
             <li className="text-grey">
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="text-grey">
               <Link href="/market">Market</Link>
