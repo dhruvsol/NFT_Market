@@ -100,11 +100,10 @@ export const Footer = () => {
           <h1 className="py-5">logo</h1>
           <p>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            The digital marketplace for crypto collectibles, NFTs and crypto
+            currency .
             <br />
-            tristique placerat eleifend aliquam pellentesque facilisis ultrices.
-            <br />
-            Imperdiet mus urna egestas at tellus.
+            Buy, sell, and discover exclusive digital items
             <br />
           </p>
         </div>
@@ -142,7 +141,7 @@ export const Footer = () => {
           <h1 className="cursor-pointer">Privacy Policy</h1>
           <h1 className="cursor-pointer">Terms and Condition</h1>
         </div>
-        <h1 className="cursor-pointer">Copyright </h1>
+        <h1 className="cursor-pointer">Copyright MetaDee </h1>
       </div>
     </>
   );

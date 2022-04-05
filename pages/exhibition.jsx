@@ -62,10 +62,8 @@ const exhibition = () => {
               Stay in the loop on CryptoArt and NFTs
             </h1>
             <p className="text-xl text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor
+              Join our mailing list to stay in the loop with our newest feature
+              releases, NFT drops, and tips and tricks for navigating MetaDee.
             </p>
             <div className="flex justify-center w-full pt-12 gap-2">
               <input
