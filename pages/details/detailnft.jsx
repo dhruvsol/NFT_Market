@@ -73,7 +73,7 @@ const detailnft = () => {
             <div>
               <h1 className="text-2xl pb-2 text-grey">List Price:</h1>
               <div className="flex gap-10">
-                <h1 className="text-white text-2xl">0.442DDC</h1>
+                <h1 className="text-white text-2xl">0.442 DDC</h1>
                 <h1 className="text-white text-xl">$1.22</h1>
               </div>
               <div className="flex gap-10 pt-10">
@@ -99,7 +99,7 @@ const detailnft = () => {
               <input
                 type="text"
                 placeholder="Your Email"
-                className="w-2/3 bg-blue-nft border  border-blue-connect rounded-md focus:outline-none placeholder:font-bold placeholder:text-white placeholder:px-5 px-10"
+                className="w-2/3 bg-blue-nft border  border-blue-connect rounded-md focus:outline-none  placeholder:text-white placeholder:px-5 px-10"
               />
               <button className="bg-blue-button  text-white p-3 px-5 rounded-md">
                 Subscribe
