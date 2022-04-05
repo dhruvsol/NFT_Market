@@ -10,7 +10,7 @@ export default function Home() {
           <Navbar />
         </div>
         <div className="flex justify-evenly pt-32  overflow-x-hidden ">
-          <div className="pt-10">
+          <div className="pt-20">
             <h1 className="text-white text-6xl font-bold ">
               Collect, Explore, sell and invest
               <br /> on incredible NFTs.
