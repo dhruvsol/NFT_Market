@@ -56,14 +56,11 @@ export const MarketHero = () => {
       <div className="h-max bg-back pt-24">
         <div className="px-16">
           <h1 className="text-white text-4xl font-bold py-7">Market</h1>
-          {/* <p className="text-white text-xl">
+          <p className="text-white text-xl">
             {
-              "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a"
+              "Explore the best NFTs on MetaDee, by Floor Price, Creators and other statistics"
             }
           </p>
-          <p className="text-white text-xl">
-            {"document or a typeface without relying on meaningful content. "}
-          </p> */}
         </div>
         <div className="px-16 pt-10">
           <h1 className="text-white pb-4">Filter By:</h1>

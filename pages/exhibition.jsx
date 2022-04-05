@@ -11,9 +11,9 @@ const exhibition = () => {
         <div className="px-36">
           <h1 className="text-white font-bold py-5 text-4xl">Exhibition</h1>
           <p className="text-grey text-xl">
-            Lorem ipsum is a placeholder text commonly used to demonstrate the
-            visual form of a document <br /> or a typeface without relying on
-            meaningful content.
+            Find wonderful art creations and projects by renowned Artistes,
+            <br />
+            Collectors, Media Production Companies.
           </p>
         </div>
         <div>

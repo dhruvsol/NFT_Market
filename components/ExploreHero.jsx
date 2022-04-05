@@ -44,7 +44,11 @@ export const ExploreHero = () => {
     <>
       <div className="bg-back h-max">
         <div className="px-16 pt-12 text-white">
-          <h1 className="text-4xl font-bold">Explore Now</h1>
+          <h1 className="text-3xl pb-2 font-bold">Explore Now</h1>
+          <p>
+            Search Digital Arts, NFTs, Projects to Invest, Favorite Artist’s
+            work, Art or Collection
+          </p>
           <div className="flex justify-center pt-12 gap-2">
             <input
               type="text"
