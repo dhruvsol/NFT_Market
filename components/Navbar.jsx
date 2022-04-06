@@ -34,7 +34,7 @@ export const Navbar = () => {
           <Image src="/logo.png" alt="logo" width={240} height={42} />
         </div>
         <div className="flex items-center">
-          <ul className="flex justify-around gap-5 items-center ">
+          <ul className="flex justify-around xl:gap-10 lg:gap-8 items-center ">
             <li className="text-grey">
               <Link href="/">Home</Link>
             </li>
